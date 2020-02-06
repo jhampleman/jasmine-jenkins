@@ -6,7 +6,7 @@
    <UUID>e4427e29-179e-47dc-b645-0cbff0b44307</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/jhampleman/Katalon Studio/jasmine-jenkins/jasmine-jenkins.prj</projectFileLocation>
+   <projectFileLocation>/Users/jhampleman/jasmine-jenkins/jasmine-jenkins.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
