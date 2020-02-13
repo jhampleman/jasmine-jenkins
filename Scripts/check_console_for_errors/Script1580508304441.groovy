@@ -37,7 +37,7 @@ WebUI.verifyElementNotPresent(findTestObject('jasmine-error'), 0)
 
 WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
 
-
+/*
 switch (executedBrowser) {
     case WebUIDriverType.CHROME_DRIVER:
         WebDriver driver = DriverFactory.getWebDriver()
@@ -53,6 +53,6 @@ switch (executedBrowser) {
             assert !(errtxt.contains('faketest'))
         }
 }
-
+*/
 WebUI.closeBrowser()
 
