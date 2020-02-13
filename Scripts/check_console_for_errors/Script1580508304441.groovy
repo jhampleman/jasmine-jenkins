@@ -32,7 +32,7 @@ WebUI.openBrowser('https://webdev.viasat.dev/jasmine/Jasmine.html')
 
 WebUI.waitForElementVisible(findTestObject('jasmine-panel'), 10)
 
-WebUI.verifyElementNotPresent(findTestObject('jasmine-error'), 0)
+WebUI.verifyElementPresent(findTestObject('jasmine-error'), 0)
 
 WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
 
