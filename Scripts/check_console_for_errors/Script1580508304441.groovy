@@ -26,7 +26,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebDriver driver = new RemoteWebDriver(new URL("http://jenkins.mydomain:4444/wd/hub"), capability)
+WebDriver driver = new RemoteWebDriver(new URL("http://70.32.92.226:4444/wd/hub"), capability)
 
 WebUI.openBrowser('https://webdev.viasat.dev/jasmine/Jasmine.html')
 
