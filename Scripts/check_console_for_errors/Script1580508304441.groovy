@@ -34,10 +34,10 @@ WebUI.openBrowser('https://webdev.viasat.dev/jasmine/Jasmine.html')
 WebUI.waitForElementVisible(findTestObject('jasmine-panel'), 10)
 
 WebUI.verifyElementNotPresent(findTestObject('jasmine-error'), 0)
-
+/*
 WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
 
-/*
+
 switch (executedBrowser) {
     case WebUIDriverType.CHROME_DRIVER:
         WebDriver driver = DriverFactory.getWebDriver()
@@ -50,7 +50,7 @@ switch (executedBrowser) {
             println(errtxt)
 
             //Assert.assertFalse()
-            assert !(errtxt.contains('faketest'))
+            assert (errtxt.contains('faketest'))
         }
 }
 */
